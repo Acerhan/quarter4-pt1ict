@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title> Survey </title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body><h1>SURVEY</h1>
+    <form>
+<p>
+       <h3> Full name: <input type="text" id="fullname">
+        <br><br>
+       Section: <input type="text" id="section"> <br><br>
+       Lowest Subject: <input type="text" id="animal"> <br><br>
+       Highest Suject: <input type="text" id="subjec"> <br><br>
+       How do you feel about your current grades right now? <input type="text" id="sub"> <br><br>
+       Have you gotten the recommended hours of sleep? (8 hours) <input type="text" id="sleep"> <br><br>
+       Has submitting works on time become a hard task? <input type="text" id="task"> <br><br>
+       Rate your stress level from one to ten <input type="number" id="stress"> <br><br>
+       What has helped you study so far? <input type="text" id="study"> <br><br>
+       If you were given a chance, would you prefer a different school? <input type="text" id="school"> <br><br>
+        <input type="submit" value="submit" onclick="sun()"></h3></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Prepared by Ace Jana T. Abalos</h2>
+    </form>
+    <script>
+        function sun()
+        { 
+            var fullname=document.getElementById("fullname").value;
+            var fullname=document.getElementById("section").value;
+            var fullname=document.getElementById("animal").value;
+            var fullname=document.getElementById("subjec").value;
+            var fullname=document.getElementById("sub").value;
+            var fullname=document.getElementById("sleep").value;
+            var fullname=document.getElementById("task").value;
+            var fullname=document.getElementById("stress").value;
+            var fullname=document.getElementById("study").value;
+            var fullname=document.getElementById("school").value;
+                    
+
+            var name=localStorage.setItem("fullname", "fname");
+            var sec=localStorage.setItem("section", "sc");
+            var subjek=localStorage.setItem("animal", "an");
+            var subjhect=localStorage.setItem("subjec", "sb");
+            var fsubject=localStorage.setItem("sub", "subz");
+            var fullname=localStorage.setItem("sleep", "tulog");
+            var fsubject=localStorage.setItem("task", "taask");
+            var fsubject=localStorage.setItem("stress", "sstress");
+            var fsubject=localStorage.setItem("study", "studyy");
+            var fsubject=localStorage.setItem("school", "paaralan");
+        
+                }
+       </script>
+       </body>
+       </html>
